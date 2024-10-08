@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*HEADER*/
+ 
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+a.nav-link {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.container_btn {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header_btn {
+    color: #f1f1f1;
+    font-size: 20px;
+    background-color: #ab911d;
+    padding: 6px 20px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.header_btn:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+    letter-spacing: 4px;
+    transition: 0.6s ease-in-out;
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -ms-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: #ab911d !important;
+}
+
+.nav-link, .dropdown-item {
+    color: #ab911d !important;
+}
+
+
+.modal-body iframe {
+    width: 500px !important;
+    height: 375px !important;
+    border: 0;
+    margin-left: 130px;
+}
+
+@media (max-width: 550px) {
+    .navbar-brand {
+        font-size: 20px !important;
+    }
+    .modal-body iframe {
+        width: 350px !important;
+        height: 250px !important;
+        margin-left: 6px;
+    }
+    .d-block {
+        height: 500px !important;
+    }
+}
+
+
+
+/* CAROUSSEL */
+.d-block {
+    height: 700px;
+}
+
+
+/*-- MODAL --*/
+.tel h5 {
+    border-bottom: 1px solid #ab911d;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.tel img {
+    width: 15px;
+    height: 24px;
+    opacity: 0.6;
+}
+
+.tel a {
+    margin-left: 20px;
+}
+
+.mail img {
+    width: 25px;
+    height: 15px;
+    opacity: 0.6;
+}
+
+.mail a {
+    margin-left: 9px;
+    color: #212529;
+}
+
+
+
+
+/*-- BIERES BLONDES --*/
+.info-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    display:flex;
+    margin: 50px 0 0 25px;
+    color: #ab911d;
+}
+
+.command {
+    margin-left: auto;
+    padding: 8px 35px 0 0;
+    color: #ab911d;
+    font-size: 18px;
+}
+
+.command:hover {
+    color: #ab911d;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.info-card {
+    width: 400px;
+    height: auto;
+    margin: 0 20px 80px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.container-info-photo img {
+    width: 100%;
+    height: 280px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.info-card h2 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 5px;
+}
+
+.info-card p {
+    color: #333;
+    text-align: justify;
+    font-size: 16px;
+    padding: 0px 18px 15px;
+}
+
+.price span {
+    text-decoration: underline;
+}
+
+p.abus {
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+ /*-- TOP --*/
+ .gotopbtn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background:  #ab911d;
+    bottom: 100px; /* 20px */
+    cursor: pointer;
+    box-shadow: -3px 5px 5px rgba(171, 145, 29, 0.5);
+}
+
+.gotopbtn:hover {
+    border-radius: 50%;
+    box-shadow: -3px 5px 5px rgba(171, 145, 29, 0.5);
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.imgup {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.hide {
+    opacity: 0;
+    right: -100%;
+  }
+
+.show {
+    opacity: 1;
+    right: 0;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+  }
+
+
+
+ /*-- MENTIONS LEGALES --*/
+ .content-mentions {
+     text-align: center;
+     line-height: 28px;
+ }
+
+
+/*-- FOOTER --*/
+footer 
+{
+    text-align: center;
+    padding-top: 10px;
+    height: 60px;
+    font-size: 18px;
+    background: #ab911d;;
+    color: #f1f1f1;
+}
+
+span.copy
+{
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+.mention {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.mention:hover {
+    background: #f1f1f1;
+    color: rgb(171, 145, 29);
+    padding: 5px;
+    border: 1px solid rgb(171, 145, 29);
+    border-radius: 6px;   
+}
